@@ -10,7 +10,7 @@ export default function Hero() {
                 We are a family owned Mediterranean restaurant, focused
                 on traditional recipes sever with a modern twist.
                 </p>
-                <Link to="/reservations">
+                <Link to="/booking">
                     <button type="button" className="bg-secondary px-3 py-1 mt-3 rounded-lg font-semibold hover:bg-blue-400" >
                         Reserve a Table
                     </button>
