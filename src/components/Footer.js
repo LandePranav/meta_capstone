@@ -1,7 +1,7 @@
 export default function Footer() {
     return(
         <>
-        <ul className="flex justify-evenly bg-slate-400 py-5">
+        <ul className="flex justify-evenly bg-slate-400 py-5 mt-[4vh]">
             <li>Little Lemon Logo</li>
             <li>
                 <ul className="text-center">

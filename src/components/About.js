@@ -4,7 +4,7 @@ import imgb from "../icons_assets/Mario and Adrian b.jpg";
 export default function About() {
     return(
         <>
-            <div className="w-full px-[18vw] py-[5vh] flex justify-between">
+            <div id="about" className="w-full px-[18vw] py-[5vh] flex justify-between">
                 <div className="w-1/3">
                     <h1 className="text-4xl text-secondary font-bold">Little Lemon</h1>
                     <h3 className="text-2xl font-semibold p-1 pl-0">Chicago</h3>

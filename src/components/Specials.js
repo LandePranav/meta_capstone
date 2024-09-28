@@ -17,7 +17,7 @@ export default function Specials() {
     ];
     return(
         <>
-            <div className="px-[18vw] py-[5vh]">
+            <div className="px-[18vw] py-[6vh]">
                 <div className="flex w-full items-center justify-between pb-[3vh]">
                     <h2 className="text-3xl font-bold">Specials</h2>
                     <button type="button" className=" bg-secondary px-3 py-1 rounded-lg font-semibold hover:bg-blue-400" >
