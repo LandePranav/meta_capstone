@@ -7,10 +7,10 @@ export default function SpecialCard({title, price, desc, img}) {
                 </div>
                 <div className="px-[1vw] h-[60%] flex flex-col justify-between">
                     <div className="flex justify-between items-center">
-                        <p className="text-xl font-semibold pt-[1vh]">{title}</p>
+                        <p className="text-xl font-heads font-semibold pt-[1vh]">{title}</p>
                         <p className="italic font-sans text-money">{price}</p>
                     </div>
-                    <p className="text-justify text-sm pt-[1vh]">{desc}</p>
+                    <p className="text-justify font-paras text-sm pt-[1vh]">{desc}</p>
                     <p className="align-bottom mt-auto font-semibold text-sm py-[1vh]">Order a Delivery</p>
                 </div>
             </div>

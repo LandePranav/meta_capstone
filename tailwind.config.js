@@ -11,6 +11,10 @@ module.exports = {
         'secondary': '#F4CE14',
         'card': '#EDEFEE',
         'money': '#EE9972'
+      },
+      fontFamily: {
+        'heads': 'markazi',
+        'paras': 'karla'
       }
     },
   },
