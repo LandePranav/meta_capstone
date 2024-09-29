@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import logo from "../icons_assets/Logo.svg"
 export default function Navbar() {
+    const [selected, setSelected] = useState() ;
     return(
         <>
             <nav className="w-full font-heads flex justify-between items-center px-[4rem] py-[1rem] font-semibold overflow-x-auto">
@@ -12,7 +14,7 @@ export default function Navbar() {
                     <li className="hover:bg-primary hover:text-white block w-full rounded-lg py-[1vh]"><a href="/#about" className="block">About</a> </li>
                     <li className="hover:bg-primary hover:text-white block w-full rounded-lg py-[1vh]">Menu</li>
                     <li className="hover:bg-primary hover:text-white block w-full rounded-lg py-[1vh]"><Link to="/booking" className="block">Reservations</Link> </li>
-                    <li className="hover:bg-primary hover:text-white block w-full rounded-lg py-[1vh]">Order-Online</li> 
+                    <li className="hover:bg-primary hover:text-white block w-full rounded-lg py-[1vh]">Order-Online</li>
                     <li className="hover:bg-primary hover:text-white block w-full rounded-lg py-[1vh]">Login</li>
                 </ul>
             </nav>

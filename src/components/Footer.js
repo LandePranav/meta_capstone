@@ -2,7 +2,7 @@ import logo from '../icons_assets/Logo.svg'
 export default function Footer() {
     return(
         <>
-        <ul className="flex font-paras justify-evenly bg-slate-400 py-5 mt-[4vh]">
+        <ul className="flex font-paras justify-evenly bg-slate-300 py-5 mt-[4vh]">
             <li className='flex items-center'><img src={logo} alt='logo' className='scale-150' /></li>
             <li>
                 <ul className="text-center">

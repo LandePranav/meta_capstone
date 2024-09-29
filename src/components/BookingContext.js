@@ -1,12 +1,12 @@
-import { createContext } from "react"
+import {createContext, useState } from "react"
+export const userContext = createContext() ;
 
-export default function BookingContext() {
-    const userContext = createContext() ;
-    const contextProvider = ({children}) => {
-        <userContext.Provider>
+export default function BookingContext({children}) {
+    const [lastBooking, setLastBooking] = useState({});
+
+    return(
+        <userContext.Provider value={{lastBooking, setLastBooking}}>
             {children}
         </userContext.Provider>
-    }
-    
-    return
+    );
 }
