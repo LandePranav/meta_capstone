@@ -17,8 +17,8 @@ export default function About() {
                     </p>
                 </div>
                 <div className="w-1/4 relative -top-10 right-20">
-                    <img loading="lazy" src={imga} alt="mario-adrian" className="rounded-3xl border border-black relative top-1/2 left-1/2" />
-                    <img loading="lazy" src={imgb} alt="mario-adrian" className="rounded-3xl border shadow-lg border-black absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10" />
+                    <img src={imga} alt="mario-adrian" className="rounded-3xl border border-black relative top-1/2 left-1/2" />
+                    <img src={imgb} alt="mario-adrian" className="rounded-3xl border shadow-lg border-black absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10" />
                 </div>
             </div>
         </>
